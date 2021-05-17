@@ -81,7 +81,7 @@ body {
 	}
 }
 
-. .marulist {
+.marulist {
 	top: 15px;
 	left: 31px;
 	display: flex;
@@ -299,8 +299,8 @@ button {
 	margin: 130px 0 0 0;
 }
 .slick-slide {
-	margin-right: 1vw !important;
-	margin-left: 1vw !important;
+	margin-right: 55px !important;
+	margin-left: 55px !important;
 }
 
 .slick-slide img {
@@ -380,7 +380,7 @@ button {
 }
 .parts {
 	margin: 0 auto 100px auto;
-	width: 85%;
+	width: 60%;
 }
 .info-title {
 	margin: 0;
@@ -450,7 +450,7 @@ button {
 .info-box {
 	width: 33%;
 	margin: 0;
-	padding: 3px;
+	padding: 5px;
 	position: relative;
 	text-decoration: none;
 }
@@ -609,13 +609,14 @@ img.yutube {
 
 	background-color: blue;
 	z-index: 10;
-	width: 90%;
-	height: 60%;
-	/* left: calc() */
-	bottom: 150px;
+	width: 1000px;
+	height: 800px;
+	left: 0;
+	bottom: 0;
 	margin: 0px 0 0 0px;
-	/* transform: translateY(50%) translateX(-50%); */
-	/* -webkit- transform: translateY(-50%) translateX(-50%);	 */
+	/* transform: translateY(50%) translateX(-50%);  */
+	/* transform: translateY(50%) translateX(50%);  */
+
 	border-radius: 50% 50% 0 0;
 }
 
