@@ -1,6 +1,6 @@
 $('.slider').slick({
   autoplay: true,
-  // autoplaySpeed: 2000,
+  autoplaySpeed: 3000,
   speed: 800,
   dots: true,
   arrows: true,
@@ -14,7 +14,7 @@ $('.slider').slick({
 
 $('.slider-mb').slick({
   autoplay: true,
-  // autoplaySpeed: 2000,
+  autoplaySpeed: 3000,
   speed: 800,
   dots: true,
   arrows: true,
