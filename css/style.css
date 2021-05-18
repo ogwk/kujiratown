@@ -6,9 +6,6 @@ html {
 		sans-serif;
 
 	background-color: #f7f4eb;
-	overflow-x: hidden;
-
-	/* overflow-x: hidden; */
 }
 
 :focus {
@@ -38,6 +35,9 @@ body {
 	z-index: 1;
 }
 
+.wrap{
+	overflow: hidden;
+}
 .logo {
 	position: fixed;
 	top: 5px;
